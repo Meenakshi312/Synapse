@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synapse</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <link
+      rel="shortcut icon"
+      href="./Images/logoNoTxt.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <nav class="navBar">
+      <div class="mainLogo">
+        <img src="./Images/MainLogo.png" alt="logo" />
+      </div>
+      <button onclick="scrollToSection('registerCards')" class="button">Sign In</button>
+      <button onclick="scrollToSection('registerCards')" class="button">Log In</button>
+    </nav>
+
+    <section class="description">
+      <h2 class="tagLine gradient-text">
+        "Synapse: Learn Together, Grow Together"
+      </h2>
+
+      <p class="matter whiteText">
+        Ignite your learning journey! Connect with like-minded students, share
+        knowledge, and level up your skills on our AI-powered platform. Earn
+        rewards, have fun, and transform your education today!
+      </p>
+      <img src="./Images/logoNoTxt.png" alt="bigLogo" class="bigLogo" />
+    </section>
+
+    <section class="registerCards" id="registerCards">
+      <div class="Nova shinecard bore2rem">
+        <h2>Be a Nova</h2>
+        <p>
+          Empower your learning journey, fuel your curiosity, and unlock your
+          full potential. Discover new horizons, expand your knowledge, and
+          shine brighter than ever before.
+        </p>
+        <button onclick="redirectToSignInNova()" class="button">Begin to Shine</button>
+      </div>
+
+      <div class="Lumina shinecard bore2rem">
+        <h2>Become a Lumina</h2>
+        <p>
+          Share your knowledge, inspire others, and make a difference. Be a
+          beacon of light, guiding others on their learning journey. Your
+          insights can illuminate the path for countless learners.
+        </p>
+        <button onclick="redirectToSignInLumina()" class="button">Be the Light</button>
+      </div>
+    </section>
+
+    <h2
+      style="
+        color: rgb(0, 0, 0);
+        margin-top: 5%;
+        font-size: 2em;
+        margin-left: 2.5%;
+      "
+    >
+      Champs
+    </h2>
+    <section class="champs">
+      <div class="name bore2rem">
+        <div class="frame bore2rem">
+          <img src="./Images/profPic.png" alt="profilePic" class="profilePic" />
+        </div>
+        <p>@matrix</p>
+      </div>
+
+      <div class="name bore2rem">
+        <div class="frame bore2rem">
+          <img src="./Images/profPic.png" alt="profilePic" class="profilePic" />
+        </div>
+        <p>@CM</p>
+      </div>
+
+      <div class="name bore2rem">
+        <div class="frame bore2rem">
+          <img src="./Images/profPic.png" alt="profilePic" class="profilePic" />
+        </div>
+        <p>@CtCt</p>
+      </div>
+
+      <div class="name bore2rem">
+        <div class="frame bore2rem">
+          <img src="./Images/profPic.png" alt="profilePic" class="profilePic" />
+        </div>
+        <p>@BFS</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo Section -->
+        <div class="footer-logo">
+          <img src="./Images/logoNoTxt.png" alt="Positivus Logo" class="logo" />
+          <h2 class="footer-title">Synapse</h2>
+        </div>
+
+        <!-- Navigation Links -->
+        <nav class="footer-nav">
+          <a href="#">About us</a>
+          <a href="#">Services</a>
+          <a href="#">Use Cases</a>
+          <a href="#">Pricing</a>
+          <a href="#">Blog</a>
+        </nav>
+
+        <!-- Contact Information -->
+        <div class="footer-contact">
+          <button class="contact-button">Contact us:</button>
+          <p>Email: synapse.info@gmail.com</p>
+          <p>Phone: 555-567-8901</p>
+          <p>Address: 1234 Main St, Moonstone City, Stardust State 12345</p>
+        </div>
+
+        <!-- Subscription Form -->
+        <div class="subscribe">
+          <input type="email" placeholder="Email" class="email-input" />
+          <button class="know-more">Know more</button>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="social-icons">
+          <a href="#"><img src="./Images/linkedin.svg" alt="LinkedIn" /></a>
+          <a href="#"><img src="./Images/facebook.svg" alt="Facebook" /></a>
+          <a href="#"><img src="./Images/x.svg" alt="Twitter" /></a>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>
+          © 2024 Synapse. All Rights Reserved. <a href="#">Privacy Policy</a>
+        </p>
+      </div>
+    </footer>
+    <script>
+      function redirectToSignInNova(){
+        window.location.href = "SignIn.html"
+      }
+      function redirectToSignInLumina() {
+        window.location.href = "SIL.html";
+      }
+      function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
+  </body>
+</html>

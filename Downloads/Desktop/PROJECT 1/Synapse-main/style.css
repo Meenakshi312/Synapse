@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inika", serif;
+}
+
+
+body {
+    background-image: linear-gradient(to bottom, #ffffff, #fdf7fc, #ffedf3, #ffe4e3, #ffdece, #f9d9bf, #f1d4b1, #e5d1a4, #e1ca96, #ddc389, #d9bc7b, #d5b56e);
+
+
+}
+
+.whiteText {
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: #BC9068;
+    display: inline;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 2rem;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color:#86674b ;
+    color: white;
+}
+.bore2rem {
+    /* border: 1% ; */
+    border-radius: 2em;
+}
+
+.navBar {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.mainLogo {
+    margin-right: 50%;
+}
+
+.mainLogo img {
+    height: 30vh;
+}
+
+.description {
+    display: grid;
+    height: 40vh;
+    grid-template-columns: "1fr 1fr";
+    grid-template-rows: "1fr 1fr";
+    background-color: #515151;
+    border: 1% solid white;
+    border-radius: 1rem;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+
+}
+
+.tagLine {
+    grid-column: 1/2;
+    grid-row: 1;
+    font-size: 2em;
+}
+
+.matter {
+    grid-row: 2;
+    grid-column: 1/2;
+    margin-top: 5%;
+    line-height: 2rem;
+    font-size: 1em;
+
+}
+
+.bigLogo {
+    grid-row: 2;
+    grid-column: 2/2;
+    height: 50%;
+    position: relative;
+    bottom: 15%;
+}
+
+.gradient-text {
+    background-image: linear-gradient(to right, #2bbbd4, #fa821c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* For Safari */
+    color: transparent;
+}
+
+
+.champs {
+    background-color: #D4AF37;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vh;
+    /* margin-top: 5%; */
+}
+
+.name {
+    padding: 3%;
+    height: 20vh;
+    width: 8vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.frame {
+    background-color: #F8831A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilePic {
+    width: 80%;
+}
+
+.footer {
+    background-color: #12121C;
+    padding: 40px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 10px;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #BC9068;
+}
+
+.footer-contact {
+    flex: 1;
+}
+
+.contact-button {
+    background-color: #BC9068;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    background-color: #1E1E28;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.email-input {
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.know-more {
+    background-color: #BC9068;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: background-color 0.3s;
+}
+
+.know-more:hover {
+    background-color: #9C7551;
+}
+
+.social-icons a img {
+    height: 30px;
+    margin: 0 10px;
+    filter: invert(100%);
+}
+
+
+
+.footer-bottom {
+    margin-top: 30px;
+    text-align: center;
+    border-top: 1px solid #2C2C39;
+    padding-top: 20px;
+}
+
+.footer-bottom a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: #BC9068;
+}
+
+.registerCards {
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 50vh; */
+}
+
+.shinecard {
+    margin-top: 5%;
+    width: 18%;
+    /* height: 50%; */
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shinecard h2 {
+    color: white;
+    margin: 0% 0% 5% 5%;
+}
+
+.shinecard .button {
+    margin-top: 5%;
+    text-align: center;
+
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.shinecard .button:hover {
+    background-color: #ddaa7b;
+    cursor: pointer;
+}
+
+.Nova {
+    background-color: #1F9FC2;
+}
+
+.Lumina {
+    background-color: #F8831A;
+}

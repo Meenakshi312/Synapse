@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In as Lumina</title>
+    <link rel="stylesheet" href="SILstyle.css">
+</head>
+<body>
+    <nav>
+        <img src="image/logo.png" alt="">
+        <div class="gradient-text">"Synapse: Learn Together, Grow Together"</div>
+    </nav>
+    <div class="box">
+        <h1>Sign In as Lumina</h1>
+        <div class="box1">
+            <img src="svg/username.svg" alt="">
+            <input type="text" placeholder="Username"  name="Username" id="">
+        </div>
+        <div class="box1">
+            <img src="svg/password.svg" alt="">
+            <input type="number" placeholder="Password" name="" id="">
+        </div>
+        <div class="forget">FORGET PASSWORD</div>
+        <div class="box1">
+            <button onclick="redirectToProfileFilling()" >LOGIN</button>
+        </div>
+        <div class="or">or</div>
+        <div class="box1">
+            <button onclick="redirectToSignUpAsLumina()"" >CREATE ACCOUNT</button>
+        </div>
+
+
+    </div>
+
+    <script>
+      function redirectToSignUpAsLumina(){
+        window.location.href = "SUL.html";
+      }
+      function redirectToProfileFilling(){
+        window.location.href = "Profile_Filling.html";
+      }
+    </script>
+</body>
+<footer class="footer">
+    <div class="footer-container">
+      <!-- Logo Section -->
+      <div class="footer-logo">
+        <img src="image/logo.png" alt="Positivus Logo" class="logo" />
+        <h2 class="footer-title">Synapse</h2>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="footer-nav">
+        <a href="#">About us</a>
+        <a href="#">Services</a>
+        <a href="#">Use Cases</a>
+        <a href="#">Pricing</a>
+        <a href="#">Blog</a>
+      </nav>
+
+      <!-- Contact Information -->
+      <div class="footer-contact">
+        <button class="contact-button">Contact us:</button>
+        <p>Email: synapse.info@gmail.com</p>
+        <p>Phone: 555-567-8901</p>
+        <p>Address: 1234 Main St, Moonstone City, Stardust State 12345</p>
+      </div>
+
+      <!-- Subscription Form -->
+      <div class="subscribe">
+        <input type="email" placeholder="Email" class="email-input" />
+        <button class="know-more">Know more</button>
+      </div>
+
+      <!-- Social Media Links -->
+      <div class="social-icons">
+        <a href="#"><img src="svg/linkedin.svg" alt="LinkedIn" /></a>
+        <a href="#"><img src="svg/facebook.svg" alt="Facebook" /></a>
+        <a href="#"><img src="svg/twitter.svg" alt="Twitter" /></a>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p>
+        © 2024 Synapse. All Rights Reserved. <a href="#">Privacy Policy</a>
+      </p>
+    </div>
+  </footer>
+
+  
+</html>

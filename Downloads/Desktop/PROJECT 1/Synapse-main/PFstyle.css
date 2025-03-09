@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inika", serif;
+}
+
+
+/* body {
+    background-image: linear-gradient(to bottom, #ffffff, #fdf7fc, #ffedf3, #ffe4e3, #ffdece, #f9d9bf, #f1d4b1, #e5d1a4, #e1ca96, #ddc389, #d9bc7b, #d5b56e);
+} */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav:nth-child(1) {
+    margin-right: 2vw;
+}
+
+nav .navbar {
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    margin-right: 1%;
+    text-align: center;
+}
+
+.names {
+    font-size: 1em;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-image: linear-gradient(to bottom, #ffffff, #fdf7fc, #ffedf3, #ffe4e3, #ffdece, #f9d9bf, #f1d4b1, #e5d1a4, #e1ca96, #ddc389, #d9bc7b, #d5b56e);
+    margin: 0;
+}
+
+.container {
+    background-color: #f9a346;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="time"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-slot {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#saveButton {
+    background-color: #BC9068;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.slot {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.slot input {
+    margin-right: 10px;
+}
+
+.slot button {
+    flex-shrink: 0;
+}
+
+.slot .remove-slot {
+    background-color: #dc3545;
+    color: white;
+}
+
+p.line {
+    background-image: linear-gradient(to right, #2bbbd4, #fa821c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* For Safari */
+    color: transparent;
+}
+
+p.line::after {
+    content: "";
+    display: block;
+    height: 0.2rem;
+    /* Adjust the height as needed */
+    background-image: linear-gradient(to right, #2bbbd4, #fa821c);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #12121C;
+    padding: 40px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    margin-top: 10%;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 10px;
+    transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+    color: #BC9068;
+}
+
+.footer-contact {
+    flex: 1;
+}
+
+.contact-button {
+    background-color: #BC9068;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    background-color: #1E1E28;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.email-input {
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 12px;
+    outline: none;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.know-more {
+    background-color: #BC9068;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: background-color 0.3s;
+}
+
+.know-more:hover {
+    background-color: #9C7551;
+}
+
+.social-icons a img {
+    height: 30px;
+    margin: 0 10px;
+    filter: invert(100%);
+}
+
+
+
+.footer-bottom {
+    margin-top: 30px;
+    text-align: center;
+    border-top: 1px solid #2C2C39;
+    padding-top: 20px;
+}
+
+.footer-bottom a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: #BC9068;
+}
